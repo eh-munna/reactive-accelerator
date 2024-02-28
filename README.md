@@ -1,7 +1,10 @@
 <h1 align= "center">Reactive Accelerator</h1>
 
-## This is a repository where I will keep track of my React learning.
+## Getting started with React: Describing the UI
 
-### I will follow the official documentation of React, and practice based on that.
+### Topics Covered:
 
-#### Different topics are organized in separate branches with naming convention: reactive-accelerator/[desired-branch-name]
+- Concepts of React Components
+- Writing Markup with JSX
+- JavaScript in JSX with Curly Braces
+- Passing Props to a Component

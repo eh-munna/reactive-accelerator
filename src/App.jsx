@@ -1,9 +1,21 @@
+import List from './components/List';
+
 function App() {
   return (
     <>
       <h1 className="text-3xl text-center my-2 font-semibold font-sans">
-        Welcome to the Reactive Accelerator Journey
+        Getting started with React: Describing the UI
       </h1>
+
+      <div className="container mx-auto px-4 py-3">
+        {/* <Gallery />
+
+        <Person /> */}
+
+        {/* <PackingLists /> */}
+
+        <List />
+      </div>
     </>
   );
 }
