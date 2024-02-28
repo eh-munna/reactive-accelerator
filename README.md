@@ -8,3 +8,4 @@
 - Writing Markup with JSX
 - JavaScript in JSX with Curly Braces
 - Passing Props to a Component
+- Keeping Components Pure

@@ -1,4 +1,4 @@
-import List from './components/List';
+import Clock from './components/Clock';
 
 function App() {
   return (
@@ -14,7 +14,11 @@ function App() {
 
         {/* <PackingLists /> */}
 
-        <List />
+        {/* <List /> */}
+
+        {/* <Orders /> */}
+
+        <Clock time={new Date()} />
       </div>
     </>
   );
