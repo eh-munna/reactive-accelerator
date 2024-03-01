@@ -1,7 +1,7 @@
 <h1 align= "center">Reactive Accelerator</h1>
 
-## This is a repository where I will keep track of my React learning.
+# **Tic Tac Toe**
 
-### I will follow the official documentation of React, and practice based on that.
+## A small **Tic Tac Toe** game using React Documentation tutorial.
 
-#### Different topics are organized in separate branches with naming convention: reactive-accelerator/[desired-branch-name]
+### This tutorial actually is designed for learning by doing and want to quickly try making something tangible
