@@ -1,9 +1,13 @@
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import TaskBoard from './tasks/TaskBoard';
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-center my-2 font-semibold font-sans">
-        Welcome to the Reactive Accelerator Journey
-      </h1>
+      <Header />
+      <TaskBoard />
+      <Footer />
     </>
   );
 }
