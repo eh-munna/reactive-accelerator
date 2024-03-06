@@ -1,15 +1,17 @@
 /* eslint-disable react/prop-types */
 import { FaStar } from 'react-icons/fa';
 
-export default function SingleTask({ task, onEdit }) {
+export default function SingleTask({ task, onEdit, onDelete, onFavToggle }) {
   return (
     <tr className="border-b border-[#2E3443]">
       <td>
-        {task.isBookmarked ? (
-          <FaStar color="yellow" />
-        ) : (
-          <FaStar color="gray" />
-        )}
+        <button onClick={() => onFavToggle(task.id)}>
+          {task.isBookmarked ? (
+            <FaStar color="yellow" />
+          ) : (
+            <FaStar color="gray" />
+          )}
+        </button>
       </td>
       <td>{task.title}</td>
       <td>
@@ -29,7 +31,9 @@ export default function SingleTask({ task, onEdit }) {
       <td className="text-center">{task.priority}</td>
       <td>
         <div className="flex items-center justify-center space-x-3">
-          <button className="text-red-500">Delete</button>
+          <button onClick={() => onDelete(task.id)} className="text-red-500">
+            Delete
+          </button>
           <button onClick={() => onEdit(task)} className="text-blue-500">
             Edit
           </button>

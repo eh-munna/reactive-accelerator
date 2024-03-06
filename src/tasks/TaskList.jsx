@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import SingleTask from './SingleTask';
 
-export default function TaskList({ tasks, onEdit }) {
+export default function TaskList({ tasks, onEdit, onDelete, onFavToggle }) {
   // console.log(object);
   return (
     <>
@@ -34,7 +34,7 @@ export default function TaskList({ tasks, onEdit }) {
           </thead>
           <tbody>
             {tasks.map((task) => (
-              <SingleTask key={task.id} task={task} onEdit={onEdit} />
+              <SingleTask key={task.id} task={task} onEdit={onEdit} onDelete={onDelete} onFavToggle = {onFavToggle}/>
             ))}
           </tbody>
         </table>
