@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { FaStar } from 'react-icons/fa';
 
-export default function SingleTask({ task }) {
+export default function SingleTask({ task, onEdit }) {
   return (
     <tr className="border-b border-[#2E3443]">
       <td>
@@ -30,7 +30,9 @@ export default function SingleTask({ task }) {
       <td>
         <div className="flex items-center justify-center space-x-3">
           <button className="text-red-500">Delete</button>
-          <button className="text-blue-500">Edit</button>
+          <button onClick={() => onEdit(task)} className="text-blue-500">
+            Edit
+          </button>
         </div>
       </td>
     </tr>
