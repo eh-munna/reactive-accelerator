@@ -1,7 +1,5 @@
 <h1 align= "center">Reactive Accelerator</h1>
 
-## This is a repository where I will keep track of my React learning.
+## Managing State
 
-### I will follow the official documentation of React, and practice based on that.
-
-#### Different topics are organized in separate branches with naming convention: reactive-accelerator/[desired-branch-name]
+### In this part of my study I’ll learn how to structure my state well, how to keep my state update logic maintainable, and how to share state between distant components.
