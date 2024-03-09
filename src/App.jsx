@@ -1,10 +1,14 @@
-import Picture from './Picture';
+import Accordion from './Accordion';
 
 function App() {
   return (
-    <>
-      <Picture />
-    </>
+    <div className="container mx-auto">
+      {/* <Picture /> */}
+      {/* <TravelPlan /> */}
+
+      {/* <TodoList /> */}
+      <Accordion />
+    </div>
   );
 }
 
