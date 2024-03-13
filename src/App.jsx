@@ -1,4 +1,4 @@
-import Accordion from './Accordion';
+import Page from './ContextApi/Page';
 
 function App() {
   return (
@@ -7,7 +7,11 @@ function App() {
       {/* <TravelPlan /> */}
 
       {/* <TodoList /> */}
-      <Accordion />
+      {/* <Accordion /> */}
+      {/* <Messenger /> */}
+      {/* <TaskApp /> */}
+      {/* <ReduceTaskApp /> */}
+      <Page />
     </div>
   );
 }
