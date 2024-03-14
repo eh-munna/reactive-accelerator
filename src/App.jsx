@@ -1,3 +1,4 @@
+import Form from './3.3/Form';
 import Page from './ContextApi/Page';
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
       {/* <Messenger /> */}
       {/* <TaskApp /> */}
       {/* <ReduceTaskApp /> */}
-      <Page />
+      {/* <Page /> */}
+
+      <Form />
     </div>
   );
 }
