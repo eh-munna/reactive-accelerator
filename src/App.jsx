@@ -1,4 +1,4 @@
-import TravelPlan from './3.8/TravelPlan';
+import Accordion from './3.9/Accordion';
 
 function App() {
   return (
@@ -13,7 +13,9 @@ function App() {
       {/* <ReduceTaskApp /> */}
       {/* <Page /> */}
       {/* <UserInput /> */}
-      <TravelPlan />
+      {/* <TravelPlan /> */}
+      {/* <TPlan /> */}
+      <Accordion />
     </div>
   );
 }
