@@ -1,4 +1,4 @@
-import Accordion from './3.9/Accordion';
+import Scoreboard from './3.11/Scoreboard';
 
 function App() {
   return (
@@ -15,7 +15,8 @@ function App() {
       {/* <UserInput /> */}
       {/* <TravelPlan /> */}
       {/* <TPlan /> */}
-      <Accordion />
+      {/* <Accordion /> */}
+      <Scoreboard />
     </div>
   );
 }
